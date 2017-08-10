@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8D1C7A21F3AF1E700F991F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D1C7A11F3AF1E700F991F5 /* main.m */; };
+		D8D1C7AD1F3BE5D500F991F5 /* YQProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D1C7AC1F3BE5D500F991F5 /* YQProxy.m */; };
+		D8D1C7B01F3BFD0D00F991F5 /* YQBookStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D1C7AF1F3BFD0D00F991F5 /* YQBookStore.m */; };
+		D8D1C7B31F3BFE1A00F991F5 /* YQClothesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D1C7B21F3BFE1A00F991F5 /* YQClothesStore.m */; };
+		D8D1C7B61F3BFEC700F991F5 /* YQStoreProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D1C7B51F3BFEC700F991F5 /* YQStoreProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8D1C79C1F3AF1E600F991F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8D1C79E1F3AF1E600F991F5 /* NSProxyTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSProxyTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D1C7A11F3AF1E700F991F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D1C7AB1F3BE5D500F991F5 /* YQProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQProxy.h; sourceTree = "<group>"; };
+		D8D1C7AC1F3BE5D500F991F5 /* YQProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQProxy.m; sourceTree = "<group>"; };
+		D8D1C7AE1F3BFD0D00F991F5 /* YQBookStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBookStore.h; sourceTree = "<group>"; };
+		D8D1C7AF1F3BFD0D00F991F5 /* YQBookStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBookStore.m; sourceTree = "<group>"; };
+		D8D1C7B11F3BFE1A00F991F5 /* YQClothesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQClothesStore.h; sourceTree = "<group>"; };
+		D8D1C7B21F3BFE1A00F991F5 /* YQClothesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQClothesStore.m; sourceTree = "<group>"; };
+		D8D1C7B41F3BFEC700F991F5 /* YQStoreProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQStoreProxy.h; sourceTree = "<group>"; };
+		D8D1C7B51F3BFEC700F991F5 /* YQStoreProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQStoreProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D1C79B1F3AF1E600F991F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D1C7951F3AF1E600F991F5 = {
+			isa = PBXGroup;
+			children = (
+				D8D1C7A01F3AF1E600F991F5 /* NSProxyTest */,
+				D8D1C79F1F3AF1E600F991F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D1C79F1F3AF1E600F991F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D1C79E1F3AF1E600F991F5 /* NSProxyTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D1C7A01F3AF1E600F991F5 /* NSProxyTest */ = {
+			isa = PBXGroup;
+			children = (
+				D8D1C7A11F3AF1E700F991F5 /* main.m */,
+				D8D1C7AB1F3BE5D500F991F5 /* YQProxy.h */,
+				D8D1C7AC1F3BE5D500F991F5 /* YQProxy.m */,
+				D8D1C7AE1F3BFD0D00F991F5 /* YQBookStore.h */,
+				D8D1C7AF1F3BFD0D00F991F5 /* YQBookStore.m */,
+				D8D1C7B11F3BFE1A00F991F5 /* YQClothesStore.h */,
+				D8D1C7B21F3BFE1A00F991F5 /* YQClothesStore.m */,
+				D8D1C7B41F3BFEC700F991F5 /* YQStoreProxy.h */,
+				D8D1C7B51F3BFEC700F991F5 /* YQStoreProxy.m */,
+			);
+			path = NSProxyTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D1C79D1F3AF1E600F991F5 /* NSProxyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D1C7A51F3AF1E700F991F5 /* Build configuration list for PBXNativeTarget "NSProxyTest" */;
+			buildPhases = (
+				D8D1C79A1F3AF1E600F991F5 /* Sources */,
+				D8D1C79B1F3AF1E600F991F5 /* Frameworks */,
+				D8D1C79C1F3AF1E600F991F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSProxyTest;
+			productName = NSProxyTest;
+			productReference = D8D1C79E1F3AF1E600F991F5 /* NSProxyTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D1C7961F3AF1E600F991F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yiquan;
+				TargetAttributes = {
+					D8D1C79D1F3AF1E600F991F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8D1C7991F3AF1E600F991F5 /* Build configuration list for PBXProject "NSProxyTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8D1C7951F3AF1E600F991F5;
+			productRefGroup = D8D1C79F1F3AF1E600F991F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D1C79D1F3AF1E600F991F5 /* NSProxyTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D1C79A1F3AF1E600F991F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D1C7B31F3BFE1A00F991F5 /* YQClothesStore.m in Sources */,
+				D8D1C7B01F3BFD0D00F991F5 /* YQBookStore.m in Sources */,
+				D8D1C7AD1F3BE5D500F991F5 /* YQProxy.m in Sources */,
+				D8D1C7B61F3BFEC700F991F5 /* YQStoreProxy.m in Sources */,
+				D8D1C7A21F3AF1E700F991F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8D1C7A31F3AF1E700F991F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8D1C7A41F3AF1E700F991F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8D1C7A61F3AF1E700F991F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8D1C7A71F3AF1E700F991F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D1C7991F3AF1E600F991F5 /* Build configuration list for PBXProject "NSProxyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D1C7A31F3AF1E700F991F5 /* Debug */,
+				D8D1C7A41F3AF1E700F991F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D1C7A51F3AF1E700F991F5 /* Build configuration list for PBXNativeTarget "NSProxyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D1C7A61F3AF1E700F991F5 /* Debug */,
+				D8D1C7A71F3AF1E700F991F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D1C7961F3AF1E600F991F5 /* Project object */;
+}
